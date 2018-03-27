@@ -149,7 +149,7 @@ module.exports = function (plop) {
   }
 
   function buildPath(name, baseLocalPath) {
-    return `${basePath}/config/${baseLocalPath}/${name}`;
+    return `${basePath}/${baseLocalPath}/config/${name}`;
   }
 
 };
