@@ -2,8 +2,8 @@ import { Entity } from '@datorama/akita';
 
 export class {{ pascalCase name}} extends Entity {
 
-  constructor(params: Partial<{{'pascalCase' name}}>) {
+  constructor(params: {{'pascalCase' name}}) {
     super();
   }
-  
+
 }
